@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.event-card-item {
+  background-color: transparent;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.event-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.event-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.active-img {
+  border: 1px solid #2dd4bf;
+}
+
+.event-name {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.event-location {
+  color: #fff;
+  font-size: 15px;
+}

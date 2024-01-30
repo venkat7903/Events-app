@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.events-app-container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+}
+
+.sub-event-app-container {
+  background-color: #475569;
+  width: 60%;
+  padding: 30px;
+}
+
+.events-app-title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.events-cards-list {
+  list-style-type: none;
+  padding-left: 0;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.active-event-view-container {
+  width: 40%;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
